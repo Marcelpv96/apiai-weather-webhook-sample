@@ -88,9 +88,6 @@ def makeWebhookResult(data):
              ", the temperature is " + \
         condition.get('temp') + " " + units.get('temperature')
 
-    print("Response:")
-    print(speech)
-
     return {
         "speech": "adeu",
         "displayText": "hola",
